@@ -36,3 +36,14 @@ gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 # kramdown v1, comment out this line.
 gem "kramdown-parser-gfm"
 
+# Jekyll Compose adds a bunch of colland line helpers
+gem 'jekyll-compose', group: [:jekyll_plugins]
+
+# draft      # Creates a new draft post with the given NAME
+# post       # Creates a new post with the given NAME
+# publish    # Moves a draft into the _posts directory and sets the date
+# unpublish  # Moves a post back into the _drafts directory
+# page       # Creates a new page with the given NAME
+# rename     # Moves a draft to a given NAME and sets the title
+# compose    # Creates a new file with the given NAME
+
