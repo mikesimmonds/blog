@@ -1,5 +1,7 @@
 ---
+# Maybe you need to write someting here
 ---
+
 [
   {% for post in site.posts %}
     {
@@ -12,4 +14,4 @@
 
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
-]
+] 

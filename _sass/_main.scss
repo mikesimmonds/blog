@@ -1,0 +1,23 @@
+
+
+
+
+#search-container {
+  min-height: 70vh;
+  .search-input-wrapper {
+    height: 10vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  input {
+    height: 45px;
+    width: 400px;
+    font-size: 23px;
+    padding: 0 12px;
+  }
+}
+
+.result-link-container {
+  padding: 20px;
+}
